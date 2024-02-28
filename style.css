@@ -1,0 +1,152 @@
+* {
+padding: 0;
+margin: 0;
+list-style: none;
+border: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1005px;
+}
+
+.logo{
+    display: flex;
+    align-items:center;
+    justify-content:flex-start;
+    font-family: "Inter";
+    font-weight: bold;
+    color: #89C5CC;
+    font-size: 22px;
+    width: 50%;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 267px;
+    color: #1F1534;
+}
+
+.nav span{
+    font-family: 'Mulish';
+}
+
+.home{
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1008px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 332px;
+}
+
+.texto{
+    width: 489px;
+    height: 332px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    font-family: "Open Sans";
+}
+
+.texto span{
+    color: #7D7987;
+    font-weight: bold;
+
+}
+
+.texto .title{
+    color: #89C5CC;
+}
+
+.hero{
+    height: 433px;
+}
+
+.hero img {
+    width: 417px;
+    height: 433px;
+}
+
+h1{
+    font-family: "Mulish";
+    font-weight: "Mixed";
+    color: #000000;
+    font-size: 49px;
+}
+
+h6{
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 14px;
+    color: #7D7987;
+}
+
+.texto h6{
+    width: 438px;
+    height: 84px;
+    line-height: 28px;
+}
+
+h5{
+    font-family: "DM Sans";
+    font-size: 16px;
+    color: #F9F9F9;
+}
+
+.button{
+    background-color:#69B99D;
+    width: 179px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button img{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.button h5{
+    font-size: 16px;
+}
+
+footer h6{
+    color: #000000;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+footer div{
+    width: 96px;
+    height: 88px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
